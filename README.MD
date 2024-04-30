@@ -25,4 +25,14 @@
         parent.append(tmpl.content.cloneNode(true))
      </script>
 
-### Shadow DOM slots, composition
+### Shadow DOM Slots, composition
+
+       Slots allow to show elements from light DOM in specified places of shadow DOM.
+
+        <user-card id="userCard">
+             <span slot="username">John Smith</span>
+        </user-card>
+
+### CustomEvent
+
+    With this class you can create and dispatch your custom built events
